@@ -41,15 +41,15 @@
                     <p>Im a Digital Designer and Front-end Web Developer based in Quezon City.</p>
 
                     <div class="toggle-link">
-                        <a href="#">
+                        <a href="#skills">
                             <i class="fa-solid fa-code"></i>
                             <span>Skills</span>
                         </a>
-                        <a href="#">
+                        <a href="#about">
                             <i class="fa-solid fa-pencil"></i>
                             <span>About Me</span>
                         </a>
-                        <a href="#">
+                        <a href="#contact">
                             <i class="fa-solid fa-envelope"></i>
                             <span>Work w/ Me!</span>
                         </a>
@@ -93,8 +93,8 @@
                 </div>
         </section>
 
-        <section>
-            <h2 style="color: aliceblue; font-size: 35px;" >About Me</h2>
+        <section class="about-container">
+            <h2 id="about">About Me</h2>
             <div class="about-me_container">
                 <div class="left-about">
                     <img src="mypic.jpg" alt="my picture">
@@ -122,6 +122,31 @@
                     <p>Shein</p>
                     <p>Jollibee</p>
                     <p>Starbucks</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact-container" id="contact">
+            <div class="contact-section">
+                <h2>Work with Me!</h2>
+                
+                <div class="group-contact">
+                    <div class="work-cons">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum ea velit animi vel recusandae, dolor vero facere omnis? Suscipit earum quam, eligendi error doloremque odit. Maxime est libero cum quas!</p>
+                    </div>
+    
+                    <form action="https://formspree.io/f/xpwzwjjr" method="POST">
+                        <label for="name" id="name">Name: </label>
+                        <input type="text">
+    
+                        <label for="email">Email: </label>
+                        <input type="email" id="email">
+    
+                        <label for="message">Message</label>
+                        <textarea id="message" cols="30" rows="10"></textarea>
+    
+                        <button type="submit">Send Message</button>
+                    </form>
                 </div>
             </div>
         </section>

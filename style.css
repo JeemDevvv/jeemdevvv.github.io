@@ -104,6 +104,9 @@ nav .right-nav a span {
     padding: 0 50px;
     margin-bottom: 100px;
     height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .skills-container h2 {
@@ -140,9 +143,15 @@ nav .right-nav a span {
 
 /* ABOUT ME */
 
+.about-container h2{
+    color: aliceblue;
+    font-size: 35px;
+    padding: 0 50px;
+}
+
 .about-me_container {
     display: flex;
-    gap: 5px;
+    gap: 15px;
     padding: 0 50px;
     margin-bottom: 100px;
     margin-top: 20px;
@@ -150,8 +159,9 @@ nav .right-nav a span {
 }
 
 .about-me_container .left-about img{
-    width: 230px;
-    height: 400px;
+    height: 300px;
+    width: auto;
+    max-width: 100%;
     aspect-ratio: 1 / 1;
     object-fit: cover;
     margin-bottom: 10px;
@@ -172,7 +182,6 @@ nav .right-nav a span {
     display: flex;
     align-items: top;
     flex: 5;
-    margin-left: 15px;
     flex-direction: column;
     height: 30vh;
 }
@@ -200,6 +209,59 @@ nav .right-nav a span {
     text-decoration: underline;
     text-underline-offset: 3px;
     font-weight: 300;
+}
+
+/* Contact Section*/
+
+.contact-section {
+    padding: 0 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: #efefef;
+}
+
+.contact-section h2 {
+    font-size: 35px;
+}
+
+.contact-section .group-contact {
+    display: flex;
+    gap: 50px;
+}
+
+.contact-section .group-contact .work-cons {
+    flex: 3;
+    margin-top: 20px;
+}
+
+.contact-section .group-contact form {
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 10px;
+}
+
+.contact-section .group-contact form input, form textarea {
+    font-family: "Poppins", sans-serif;
+    border: none;
+    background-color: #a7a7a7;
+    padding: 10px;
+    margin-bottom: 15px;
+    outline: none;
+    resize: none;
+}
+
+.contact-section .group-contact form button{
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+    background-color: black;
+    color: var(--text-color);
+    border: none;
+    height: 50px;
+}
+
+.contact-section .group-contact form input:focus, textarea:focus {
+    border: 1px solid var(--background-color);
 }
 
 
