@@ -61,7 +61,7 @@ nav .right-nav a span {
 
 .main-page {
     color: var(--text-color);
-    height: 60vh;
+    height: 50vh;
     display: flex;
     align-items: center;
     padding: 0 50px;
@@ -103,7 +103,6 @@ nav .right-nav a span {
 .skills-container {
     padding: 0 50px;
     margin-bottom: 100px;
-    height: 40vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
