@@ -1,4 +1,4 @@
-@media only screen and (max-width: 659px) {
+@media (max-width: 659px) {
     nav {
         padding: 0 20px;
     }
@@ -114,7 +114,7 @@
     }
 }
 
-@media only screen and (max-width: 965px) {
+@media (max-width: 965px) {
     .about-me_container .context-about p {
         font-size: 14px;
     }
